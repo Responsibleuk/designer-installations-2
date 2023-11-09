@@ -495,3 +495,14 @@ $(document).on('ready',function($) {
 	})();
 
 });
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Hide the preloader after 1.5 seconds
+    const preloader = document.querySelector(".preloader");
+    
+    setTimeout(function() {
+        preloader.style.display = "none";
+    }, 1500); // 1500 milliseconds (1.5 seconds)
+});
